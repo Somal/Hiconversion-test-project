@@ -21,5 +21,6 @@ import settings
 
 urlpatterns = [
                   url(r'^admin/', admin.site.urls),
+                  # url(r'^admin/', invites.views.callback),
                   url(r'^$', invites.views.main),
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

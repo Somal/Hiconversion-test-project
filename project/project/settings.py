@@ -116,14 +116,11 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'invites/static/')
 STATIC_URL = '/static/'
 
-print(STATIC_ROOT)
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
-# from django.contrib.staticfiles.templatetags.staticfiles import static
-# print(static('x.jpg '))
 
 
 
