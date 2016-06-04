@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Account</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="{% static "assets/bootstrap/css/bootstrap.min.css" %}">
+        <link rel="stylesheet" href="{% static "assets/font-awesome/css/font-awesome.min.css" %}">
+        <link rel="stylesheet" href="{% static "assets/css/form-elements.css"%}">
+        <link rel="stylesheet" href="{% static "assets/css/style.css" %}">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="{% static "assets/ico/favicon.png" %}">
+
+    </head>
+
+    <body>
+
+        <div class="btn-group" role="group" aria-label="...">
+            <!--<button type="button" class="btn btn-default"><a hred="/out">Выйти</a></button>-->
+            <a href="/out" class="btn btn-info" role="button">Выйти</a>
+        </div>
+
+    </body>
+
+</html>
