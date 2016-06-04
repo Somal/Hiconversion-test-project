@@ -1,2 +1,1 @@
-# Hiconversion-test-project
-Repository with the solution of test task by Hiconversion
+Время решения задания: 13:00 - 4 июня 2016
